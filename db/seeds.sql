@@ -1,8 +1,7 @@
-INSERT INTO burgers (burger_name)
-VALUES ("Double Bacon Cheeseburger");
+USE burgers_db;
 
 INSERT INTO burgers (burger_name)
-VALUES ("Baja Burger");
-
-INSERT INTO burgers (burger_name)
-VALUES ("Carolina Reaper Burger");
+VALUES
+("Carolina Reaper Burger"),
+("Baja Burger"),
+("Double Bacon Cheeseburger");
